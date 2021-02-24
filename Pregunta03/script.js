@@ -44,12 +44,7 @@ function calcular() {
     alert("Presupuesto: "+ presupuesto + "\nCompra: "+ compra + "\n Precio:"+ precio + "\n Cantidad: "+ cantidad + "\nsubtotal: "+(subtotal) )
 }
 function sumaTotal () {
-    var diferencia = 0;
-    var total = 0; 
-    
-    diferencia = total - presupuesto;
-    document.getElementById("totalText").innerHTML = Total + ".";
-    document.getElementById("diferenciaText").innerHTML = Diferencia + ".";
+   alert("No me alcanzó el tiempo :(")
 
 
 }
