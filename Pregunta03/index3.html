@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="calcular" onclick="sumaTotal()"> Suma total </button>
+    <h1>Pregunta3</h1>
+    <label for="presupuesto">Elige un presupuesto:</label>
+
+<select name="presupuesto" id="presupuesto" >
+    <option value=50>50</option>
+    <option value=50>50</option>
+    <option value=100>100</option>
+    
+    
+    <option value=250>250</option>
+    <option value=500>500</option>
+</select>
+<br>
+
+
+    <label for="">Compra*</label>
+    <input type="text" name="compra" id="compra" placeholder="Compra">
+    <br>
+    <label for="">Precio*</label>
+    <input type="number" name="precio" id="precio" placeholder="Precio">
+    <br>
+    <label for="">Cantidad*</label>
+    <input type="number" name="cantidad" id="cantidad" placeholder="cantidad">
+    <br><br>
+    <button id="calcular" onclick="calcular()"> Enviar </button>
+
+    <script src="script.js"></script>
+    <table border="true" id="table" class="table">
+        <tr>
+            <th>Compra</th>
+            <th>precio</th>
+            <th>cantidad</th>
+            
+        </tr>
+        
+    </table>
+</body>
+</html>
